@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+    <title>
+        The Historic City of Vigan
+    </title>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="witdh=device-witdh, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="whl.png" type="img/png" >
+</head>
+<body>
+    <header>
+        <div class="VIGANCITY">
+            <a href="http://vigancity.gov.ph/">
+                <img class="logo" src="covl.png" alt="City Of Vigan Logo">
+            </a>
+            <img class="vigan" src="Vigan City Name.png" alt="Vigan City">
+            <a href="https://cities.new7wonders.com/wonders/vigan-philippines/">
+                <img class="logo" src="swl.png" alt="7 Wonders of The World Logo">
+            </a>
+            <a href="https://whc.unesco.org/en/list/502">
+                <img class="logo" src="whl.png" alt="World Heritage Logo">
+            </a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a class="men" href="index.html">Home</a></li>
+                <li><a class="men" href="The City.html">The City</a></li>
+                <li><a class="men" href="Business.html">Business</a></li>
+                <li><a class="men" href="Tourist.html">Tourist</a></li>
+                <li><a class="men" href="Contacts.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="banner"></section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky",window.scrollY > 0);
+        })
+    </script>
+        <div>
+            <div class="backg">
+                <img class="gal" src="museum.jpg" alt="vigan city background">
+            </div>
+            <div id="galle">
+                <div class="page">
+                    <a href="Tourist.html">Tourist Spots</a>
+                    <a href="Museum.html">Museum</a>
+                    <a href="Gallery.html">Gallery</a>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
